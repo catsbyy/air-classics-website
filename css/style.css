@@ -152,6 +152,12 @@ body.active {
 .white #contact_button_profile {
     background: #282A30;
     color: white;
+    transition: background 0.1s linear;
+}
+.white #contact_button_profile:hover {
+    background: #F5F5F5;
+    color: #282A30;
+    transition: background 0.1s linear;
 }
 
 .nav_link:after {
